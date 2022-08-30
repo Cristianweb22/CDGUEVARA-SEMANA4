@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main{
+    background-color: aliceblue;
+    width: 70%;
+    margin: 5vh;
+}
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    width: 50%;
+}
+
+.left{
+    background-color: rgb(152, 128, 175);
+
+}
+
+.right{
+    background-color: aqua;
+}
+
+.pend-task{
+    background-color: bisque;
+}
+
+.finish-task{
+    background-color: rgb(209, 177, 177);
+}
+
+.checked{
+    text-decoration: line-through;
+}
