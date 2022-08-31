@@ -25,6 +25,7 @@ function createTasks(){
         const elem = document.createElement("li");
         elem.textContent = taskItem.text;
         elem.className = taskItem.done ? "checked":"unchecked";
+        elem.classList.add ("list--style");
         //console.log(taskItem.done);
         elem.addEventListener("click",() =>toggleTask(taskItem));
         

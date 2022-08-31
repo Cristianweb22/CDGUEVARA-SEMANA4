@@ -1,21 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: center;
-    
+    background-color: #D8EEE1;
 }
 
 main{
-    background-color: aliceblue;
+    background-color:#D8EEE1;
+    max-width: 1200px;
+    min-width: 530px;
     width: 70%;
     margin: 5vh;
 }
 
 header{
-    background-color: antiquewhite;
+    background-color: #0A4543;
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
+}
+.main-title{
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .task-container{
@@ -28,22 +37,45 @@ section{
 }
 
 .left{
-    background-color: rgb(152, 128, 175);
-
+    background-color: white;
+    padding: 0 1em;
 }
 
 .right{
-    background-color: aqua;
+    background-color: white;
+    
+    border-left: 5px solid #D8EEE1;
 }
 
 .pend-task{
-    background-color: bisque;
+    background-color: white;
+    padding: 0 1em;
 }
 
 .finish-task{
     background-color: rgb(209, 177, 177);
+    padding: 1em;
 }
 
 .checked{
     text-decoration: line-through;
+}
+
+.list--style{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #0A4543;
+}
+
+#all-task{
+    color: #0A4543;
+}
+#pend-task{
+    color: #0A4543;
+}
+#fin-task{
+    color: #0A4543;
 }
